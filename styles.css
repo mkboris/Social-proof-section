@@ -277,19 +277,24 @@ body {
   .reviews-area {
     margin-top: 0;
     max-width: 33.75rem;
+    margin-left: 2rem;
   }
 
-  /* .ratings-container:nth-child(1) {
-    margin-right: 3rem;
+  .ratings-container:nth-child(1) {
+    /* margin-right: 3rem; */
+    position: relative;
+    right: 20%;
   }
 
   .ratings-container:nth-child(2) {
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
+    position: relative;
+    right: 10%;
   }
 
-  .ratings-container:nth-child(3) {
+  /* .ratings-container:nth-child(3) {
     margin-left: 5.9375rem;
-  } */
+  }  */
 
   .customer-section {
     gap: 1.875rem;
