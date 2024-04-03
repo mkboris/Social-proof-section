@@ -134,7 +134,7 @@ body {
   font-size: 2.5rem;
   line-height: 80%;
   text-align: center;
-  letter-spacing: -0.089285625em;
+  letter-spacing: -0.089285625rem;
   color: var(--very-dark-magenta);
 }
 
@@ -142,7 +142,7 @@ body {
   font-weight: 500;
   font-size: 1.1875rem;
   line-height: 132%;
-  letter-spacing: -0.0395833125em;
+  letter-spacing: -0.0395833125rem;
   color: var(--dark-grayish-magenta);
   margin-top: 1rem;
 }
@@ -232,7 +232,7 @@ body {
   font-weight: 500;
   font-size: 1.0625rem;
   line-height: 129%;
-  letter-spacing: -0.0189731875em;
+  letter-spacing: -0.0189731875rem;
   color: var(--white);
 }
 
@@ -270,7 +270,7 @@ body {
   .main-heading {
     font-size: 3.5rem;
     line-height: 86%;
-    letter-spacing: -0.125em;
+    letter-spacing: -0.125rem;
     text-align: left;
   }
 
