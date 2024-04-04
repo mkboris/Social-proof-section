@@ -208,7 +208,7 @@ body {
 }
 
 .profile img {
-  width: 40px;
+  width: 2.5rem;
   border-radius: 100%;
 }
 
@@ -235,7 +235,7 @@ body {
   color: var(--white);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 56.25rem) {
   body {
     background-image: url("images/bg-pattern-top-desktop.svg"),
       url("images/bg-pattern-bottom-desktop.svg");
