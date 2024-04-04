@@ -193,7 +193,6 @@ body {
   background: var(--very-dark-magenta);
   border-radius: 0.5rem;
   padding: 2.5rem 2rem 2.1875rem;
-  max-width: 31.25rem;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -236,16 +235,7 @@ body {
   color: var(--white);
 }
 
-@media screen and (min-width: 51.875rem) {
-  .ratings-container {
-    justify-content: center;
-    flex-direction: row;
-    gap: 2.028125rem;
-    padding: 1.25rem 2rem;
-  }
-}
-
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 900px) {
   body {
     background-image: url("images/bg-pattern-top-desktop.svg"),
       url("images/bg-pattern-bottom-desktop.svg");
@@ -253,9 +243,7 @@ body {
     background-position: calc(50% - 28rem) calc(50% - 18rem),
       calc(50% + 20rem) calc(50% + var(--bg-set));
   }
-}
 
-@media screen and (min-width: 45.625rem) {
   .intro-container {
     margin-bottom: 4.4375rem;
     flex-direction: row;
@@ -272,6 +260,13 @@ body {
     line-height: 86%;
     letter-spacing: -0.125rem;
     text-align: left;
+  }
+
+  .ratings-container {
+    justify-content: center;
+    flex-direction: row;
+    gap: 2.028125rem;
+    padding: 1.25rem 2rem;
   }
 
   .reviews-area {
